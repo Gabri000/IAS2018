@@ -20,7 +20,7 @@ https://eeb2.github.io/IAS2018
 
 ## Help for using ATOM, GIT and GITHUB:
 - Download and install Atom editor from https://atom.io/
-- Download and extract Git Portable from  
+- Download Git Portable (link given by teacher) 
 - Copy the repository address from GitHub
 - Start GitGuiPortable and Clone Existing Repository: for Source Location paste the GitHub repository address and Target Directory choose a folder on your computer (Hint: here it's a clever idea to take Onedrive folder into use and clone the repository there). Click Clone and wait until all is done. Then quit the GitGUI, you don't need it anymore.
 - Open Folder in Atom and choose the folder containing the cloned repository. And there you are! The work flow goes like this: 1) edit 2) Stage and Commit 3) Push (asks for your GitHub username & password)
