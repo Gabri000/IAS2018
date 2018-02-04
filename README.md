@@ -24,7 +24,8 @@ https://eeb2.github.io/IAS2018
 - Download and install Atom editor from https://atom.io/.
 - Download Git (Portable) to your computer (for instance Desktop but Mercury in not good here!)
 - Copy the repository address from GitHub
-- Start GitGuiPortable and Clone Existing Repository: for `Source Location` paste the GitHub repository address and `Target Directory` choose a folder on your computer (Hint: Onedrive folder / Mercury are now good places). Click Clone and wait until all is done. Then quit the GitGUI, you don't need it anymore.
+- Start GitGuiPortable and Clone Existing Repository: for `Source Location` paste the GitHub repository address and `Target Directory` choose a folder on your computer (Hint: Onedrive folder / Mercury are now good places). *Note: add a slash "/" and type a new folder name. Seems to require that.*
+- Click Clone and wait until all is done. Then quit the GitGUI, you don't need it anymore.
 - Open Folder in Atom and choose the folder containing the cloned repository. And there you are! The work flow goes like this: 1) edit 2) Stage and Commit 3) Push (asks for your GitHub username & password)
 
 - http://rogerdudler.github.io/git-guide (Command line version of GIT)
