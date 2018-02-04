@@ -19,7 +19,7 @@ https://eeb2.github.io/IAS2018
 - http://www.plagiarism.org/article/how-do-i-cite-sources
 
 ## Help for using ATOM, GIT and GITHUB:
-- Create an account on Githut.
+- Create an account on Github.
 - Find a repository to clone or create a new one.
 - Download and install Atom editor from https://atom.io/.
 - Download Git (Portable) to your computer (for instance Desktop but Mercury in not good here!)
