@@ -28,5 +28,4 @@ https://eeb2.github.io/IAS2018
 - Click Clone and wait until all is done. Then quit the GitGUI, you don't need it anymore.
 - Open Folder in Atom and choose the folder containing the cloned repository. And there you are! The work flow goes like this: 1) edit 2) Stage and Commit 3) Push (asks for your GitHub username & password)
 
-- http://rogerdudler.github.io/git-guide (Command line version of GIT)
-:) :)
+- http://rogerdudler.github.io/git-guide (Command line version of GIT) 
