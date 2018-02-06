@@ -3,10 +3,10 @@
 <head>
   <title>Data security</title>
   <link rel="stylesheet" href="../data_security/data.css">
-   
-  
 
-  
+
+
+
 </head>
 <body>
   <div id="navbar">
@@ -15,13 +15,35 @@
     <a href="https://www.techopedia.com/definition/26464/data-security">Techopedia</a>
     <a href="https://www.iss.europa.eu/content/data-protection">ISS</a>
   </div>
-  
+
   <div id="maincontent">
     <h1>Disk encryption</h1>
-    <p>Disk encryption refers to encryption technology that encrypts data on a hard disk drive. Disk encryption typically 
-     takes form in either software (see disk encryption software) or hardware (see disk encryption hardware). Disk encryption 
+    <p>Disk encryption refers to encryption technology that encrypts data on a hard disk drive. Disk encryption typically
+     takes form in either software (see disk encryption software) or hardware (see disk encryption hardware). Disk encryption
      is often referred to as on-the-fly encryption (OTFE) or transparent encryption.</p>
+     <h1>Software versus hardware-based mechanisms for protecting data</h1>
+     <p>Software-based security solutions encrypt the data to protect it from theft. However, a malicious program or a hacker
+       could corrupt the data in order to make it unrecoverable, making the system unusable. Hardware-based security solutions
+       can prevent read and write access to data and hence offer very strong protection against tampering and unauthorized access.
+
+     Hardware based security or assisted computer security offers an alternative to software-only computer security. Security tokens
+     such as those using PKCS#11 may be more secure due to the physical access required in order to be compromised. Access is enabled
+      only when the token is connected and correct PIN is entered (see two-factor authentication). However, dongles can be used by
+      anyone who can gain physical access to it. Newer technologies in hardware-based security solves this problem offering full proof
+       security for data.
+
+      Working of hardware-based security: A hardware device allows a user to log in, log out and set different privilege levels by
+      doing manual actions. The device uses biometric technology to prevent malicious users from logging in, logging out, and changing
+      privilege levels. The current state of a user of the device is read by controllers in peripheral devices such as hard disks.
+      Illegal access by a malicious user or a malicious program is interrupted based on the current state of a user by hard disk and
+      DVD controllers making illegal access to data impossible. Hardware-based access control is more secure than protection provided
+      by the operating systems as operating systems are vulnerable to malicious attacks by viruses and hackers. The data on hard disks
+       can be corrupted after a malicious access is obtained. With hardware-based protection, software cannot manipulate the user privilege
+        levels. It is impossible for a hacker or a malicious program to gain access to secure data protected by hardware or perform
+        unauthorized privileged operations. This assumption is broken only if the hardware itself is malicious or contains a backdoor.
+        The hardware protects the operating system image and file system privileges from being tampered. Therefore, a completely secure
+         system can be created using a combination of hardware-based security and secure system administration policies.</p>
   </div>
- 
+
 </body>
 </html>
