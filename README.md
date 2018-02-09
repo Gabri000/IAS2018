@@ -21,7 +21,7 @@ https://eeb2.github.io/IAS2018
 ## Help for using ATOM and GITHUB (newer and easier procedure!):
 - Create an account on Github.
 - Find a repository to clone or create a new one.
-- Download and install Atom editor from https://atom.io/.
+- Download and install Atom editor from https://atom.io/. 
 - Download GitHub Desktop (https://desktop.github.com/) to your computer and install it (no admin rights needed)
 - Open GitHub Desktop, sign in and Clone the right repository. From now on, you can do most of the basic things in Atom and GitHub Desktop is not needed anymore (Quit).
 - Open Folder in Atom and choose the folder containing the cloned repository. And there you are! The work flow goes like this:
