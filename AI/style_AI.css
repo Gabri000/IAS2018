@@ -1,0 +1,38 @@
+.BIGASSTITLE{
+    font-size: 80px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.MEDIUMASSTITLE{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.NORMALASSTEXT{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("Background.jpeg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Text-Formating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    margin: 0;
+    padding: 21px 0;
+}
