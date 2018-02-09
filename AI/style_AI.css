@@ -36,3 +36,50 @@
     margin: 0;
     padding: 21px 0;
 }
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("AI-img.jpeg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Text-Formating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    margin: 0;
+    padding: 21px 0;
+}  
+#navbar {
+  text-align: center;
+}
+
+#navbar a {
+   /* text-formating of the navigation bar*/
+  background-color: white;
+  border-radius: 10px;
+  font-size: 120%;
+  font-weight: 550;
+  color: black;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+  text-shadow: 0 0 5px #000;
+}
+
+#navbar a:link, #navbar a:visited {
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  background-color: #66f;
+}
