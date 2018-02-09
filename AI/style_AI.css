@@ -36,3 +36,25 @@
     margin: 0;
     padding: 21px 0;
 }
+#navbar {
+  text-align: center;
+}
+
+#navbar a {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 120%;
+  font-weight: 550;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+#navbar a:link, #navbar a:visited {
+  text-decoration: none;
+}
+
+#navbar a:hover, #navbar a:active {
+  background-color: #66f;
+}
