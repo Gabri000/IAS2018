@@ -8,18 +8,12 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.MEDIUMASSLINK{
+.MEDIUMASSTITLE{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
     font-size: 50px;
     text-decoration: none;
     color: white;
-}
-
-.MEDIUMASSTITLE{
-    font-size: 80px;
-    text-align: center;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .NORMALASSTEXT{
