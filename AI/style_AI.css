@@ -37,9 +37,9 @@
     padding: 21px 0;
 }
 
-.parallax { 
+.parallax2 { 
     /* The image used */
-    background-image: url("");
+    background-image: url("AI-img.jpeg");
 
     /* Set a specific height */
     height: 500px; 
@@ -73,7 +73,6 @@
   padding: 8px 15px;
   text-align: center;
   display: inline-block;
-  text-shadow: 0 0 5px #000;
 }
 
 #navbar a:link, #navbar a:visited {
