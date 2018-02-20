@@ -1,3 +1,7 @@
+body{
+    background-color: #C0C0C0;
+}
+
 .BIGASSTITLE{
     font-size: 80px;
     text-align: center;
@@ -8,6 +12,8 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
     font-size: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 .NORMALASSTEXT{
@@ -73,6 +79,7 @@
   padding: 8px 15px;
   text-align: center;
   display: inline-block;
+  text-shadow: 0 0 1px #000;
 }
 
 #navbar a:link, #navbar a:visited {
@@ -81,4 +88,14 @@
 
 #navbar a:hover, #navbar a:active {
   background-color: #66f;
+}
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #808080;
+    color: black;
+    text-align:center;
 }
