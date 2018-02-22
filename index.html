@@ -1,140 +1,49 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Encryption by Petras, Oskar & Caterina</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+<head>
+  <title>IAS2018</title>
+  <link rel="stylesheet" href="styles/styles_home.css">
+</head>
+<body>
+  <div id="navbar">
+    <a href="example/index.html">Example</a>
+    <a href="phishing/index.html">Phishing</a>
+    <a href="data_security/index.html">Data security</a>
+    <a href="Virus/Main.html">Viruses</a>
+    <a href="Encryption - P,O,C/index.html">Encryption</a>
+    <a href="AI/index.html">AI</a>
+  </div>
+  <div id="maincontent">
+    <h1>IT and Society</h1>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="logo"><a href="index.html">Encryption <span>by PETRAS, OSKAR & CATERINA</span></a></div>
-				<a href="#menu"><span>Menu</span></a>
-			</header>
+    <p>This is the main page of the IT and Society project.
+      The links above take you to specific topics.</p>
 
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="whatisencryption_learnmore.html">What is Encryption</a></li>
-					<li><a href="encryptionuses_learnmore.html">Encryption Uses</a></li>
-					<li><a href="messageverification_learnmore.html">Message Verification</a></li>
-					<li><a href="history_learnmore.html">Encryption History</a></li>
-				</ul>
-			</nav>
+    <p>Done by EEB2 students of ICT (S4) in 2018 with some
+       guidance provided by teacher Mr. Kerkkänen.</p>
 
-		<!-- Banner -->
-		<!--
-			Note: To show a background image, set the "data-bg" attribute below
-			to the full filename of your image. This is used in each section to set
-			the background image.
-		-->
-			<section id="banner" class="bg-img" data-bg="banner.jpg">
-				<div class="inner">
-					<header>
-						<h1>Encryption</h1>
-					</header>
-				</div>
-				<a href="#one" class="more">Learn More</a>
-			</section>
+    <p style="font-weight: bold">Some learning targets of the project:</p>
+    <p>Version management (Git & GitHub with Atom)</p>
+    <p>Project management and collaboration</p>
+    <p>HTML and CSS</p>
+    <p>About the topics</p>
 
-		<!-- One -->
-			<section id="one" class="wrapper post bg-img" data-bg="banner2.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>What is Encryption?</h2>
-							<p>29.01.2018</p>
-						</header>
-						<div class="content">
-							<p>In cryptography, encryption is the process of encoding a message or information in such a way that only authorized parties can access it and those who are not authorized cannot. Encryption does not itself prevent interference, but denies the intelligible content to a would-be interceptor.</p>
-						</div>
-						<footer>
-							<a href="whatisencryption_learnmore.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#two" class="more">Learn More</a>
-			</section>
+    <h2>Requirements:</h2>
+    <ul>
+    - <li>Every team creates a topic-specific folder to manage the files related to the topic.</li>
+    - <li>Create an `index.html` file in your folder. This is the main page of your topic.</li>
+    - Every team creates a CSS file to change the look of the topic pages. Name it `styles_X.css` where X is replaced by your topic name (or its shorthand expression). Save the CSS file in the `styles` folder and add links to your pages to make it work.
+    - Present your topic in a simple and understandable way. Divide it into logical parts and make the site structure accordingly.
+    - Write your own text. Don't copy-and-paste text without a good reason - and in that case mark the source immediately. *Note: if you don't understand a word or an expression, don't use it! Write the idea in other words or leave it out.*
+    - Linking: you must be able to easily navigate between the pages in your topic folder. Preserve the link to the home of homes, too.
+    - Sources: make a separate HTML page to list the sources (give the links, too).
+    - Copyright: make sure you are allowed to use the images and other materials and follow the given source marking recommendations.
+    </ul>
+    ## Help for citing and sources:
+    - https://wiki.creativecommons.org/wiki/Best_practices_for_attribution (CC-licenced material).
+    - http://www.plagiarism.org/article/how-do-i-cite-sources
 
-		<!-- Two -->
-			<section id="two" class="wrapper post bg-img" data-bg="banner5.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Encryption Uses</h2>
-							<p>30.01.2018</p>
-						</header>
-						<div class="content">
-							<p>Encryption is also used to protect data in transit, for example data being transferred via networks (e.g internet, e-commerce), mobile phones , wireless microphones, wireless intercom systems, Bluetooth devices and bank automatic teller machines. There Public-key encryption was first described in a secret document in 1973before then all encryption schemes were symmetric-key (also called private-key). There have been numerous reports of data in transit being intercepted in recent years. Data should also be encrypted when transmitted across networks in order to protect against eavesdropping of network traffic by unauthorized users.</p>
-						</div>
-						<footer>
-							<a href="encryptionuses_learnmore.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#three" class="more">Learn More</a>
-			</section>
+  </div>
 
-		<!-- Three -->
-			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>Message Verification and Data Erasure</h2>
-							<p>01.02.2018</p>
-						</header>
-						<div class="content">
-							<p>Encryption, by itself, can protect the confidentiality of messages, but other techniques are still needed to protect the integrity and authenticity of a message; for example, verification of a message authentication code (MAC) or a digital signature. Standards for cryptographic software and hardware to perform encryption are widely available, but successfully using encryption to ensure security may be a challenging problem.</p>
-						</div>
-						<footer>
-							<a href="messageverification_learnmore.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-				<a href="#four" class="more">Learn More</a>
-			</section>
-
-		<!-- Four -->
-			<section id="four" class="wrapper post bg-img" data-bg="banner3.jpg">
-				<div class="inner">
-					<article class="box">
-						<header>
-							<h2>History of Encryption</h2>
-							<p>01.02.2018</p>
-						</header>
-						<div class="content">
-							<p>Based on the evidence that we do have, the first instance of encryption and the science of cryptography dates back to ancient Egypt. Modifications of their hieroglyphic alphabet was found in several tombs and ancient remains dating back to 1900 BCE, with their objectives ranging from secrecy to dignified epitaphs to even plain amusement for the literate population. In fact, most intelligent civilisations did use some form of encryption and ciphers in their literature and military communication. Arthashastra, an ancient treatise on statecraft written and modified by Chanakya between 2nd Century BCE and 3rd Century CE, mentions the usage of secret writing in Indian espionage.</p>
-						</div>
-						<footer>
-							<a href="history_learnmore.html" class="button alt">Learn More</a>
-						</footer>
-					</article>
-				</div>
-			</section>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-
-					<h2>That's all for now! Come back soon!</h2>
-
-					<div class="copyright">
-						&copy; Encryption. Made by Petras Verseckas, Oskar Klaavu & Caterina Da Costa Cabral
-					</div>
-
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
