@@ -5,13 +5,13 @@ html, body {
 
 }
 
-.BIGASSTITLE{
+.BIGTITLE{
     font-size: 80px;
     text-align: center;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.MEDIUMASSTITLE{
+.MEDIUMTITLE{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
     font-size: 50px;
@@ -19,10 +19,14 @@ html, body {
     color: white;
 }
 
-.NORMALASSTEXT{
+.NORMALTEXT{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 20px;
 }
+.QUOTE{
+	
+}
+
 .parallax { 
     /* The image used */
     background-image: url("Background.jpeg");
@@ -93,6 +97,8 @@ html, body {
   background-color: #66f;
 }
 
+/*
+
 .footer{
     position:fixed;
     left: 0;
@@ -102,8 +108,7 @@ html, body {
     color: black;
     text-align:center;
 }
-
-/*
+*/
 #site-footer {
 	padding: 25px 0;
 	font-size: 85%;
@@ -114,7 +119,6 @@ html, body {
 	right: 0;
 	bottom: 0;
 }
-*/
 
 #site-content {
 	background-size: contain;
