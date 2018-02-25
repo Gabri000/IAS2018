@@ -29,7 +29,6 @@ body {
 	line-height: 7.7px;
 	text-align: center;
 }
-
 .parallax { 
     /* The image used */
     background-image: url("Background.jpeg");
@@ -77,6 +76,29 @@ body {
 }  
 
 .parallax3 { 
+    /* The image used */
+    background-image: url(".jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Text-Formating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    margin: 0;
+    padding: 21px 0;
+}
+
+.parallax4 { 
     /* The image used */
     background-image: url("processor-2217771_1920.jpg");
 
