@@ -21,6 +21,13 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 20px;
 }
+
+.LINKTEXT{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
 .QUOTE{
 	font-family: "Brush Script MT", cursive;
 	font-style: normal;
