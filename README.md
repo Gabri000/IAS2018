@@ -25,7 +25,7 @@ https://eeb2.github.io/IAS2018
 - Download GitHub Desktop (https://desktop.github.com/) to your computer and install it (no admin rights needed)
 - Open GitHub Desktop, sign in and Clone the right repository. From now on, you can do most of the basic things in Atom and GitHub Desktop is not needed anymore (Quit).
 - Open Folder in Atom and choose the folder containing the cloned repository. And there you are! The work flow goes like this:
-#### 1) Pull (to get newest online version) 2) Edit 2) Stage and Commit 3) Push (asks for your GitHub username & password)
+#### 1) Pull (to get newest online version) 2) Edit and test 2) Stage and Commit 3) Push (asks for your GitHub username & password)
 
 
 - http://rogerdudler.github.io/git-guide (Command line version of GIT. Just in case you want to use it.)
