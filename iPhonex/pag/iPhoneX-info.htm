@@ -1,0 +1,258 @@
+<html>
+<head>
+<link rel="icon" href="../img/icon.ico" />
+<title>iPhone X - Info</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#bt {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#bt:hover {
+    background: #ddd;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#bt1 {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#bt1:hover {
+    background: #ddd;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#home {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#home:hover {
+    background: #ddd;
+    color: black;
+}
+
+#nav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 135px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#nav a:hover {
+    left: 0;
+}
+
+#ios11 {
+    top: 80px;
+    background-color: #FFD700;
+}
+
+#ios11:hover {
+background: #ddd;
+color: black;
+}
+
+#features {
+    top: 140px;
+    background-color: #2196F3;
+}
+
+#features:hover {
+background: #ddd;
+color: black;
+}
+
+#design {
+    top: 200px;
+    background-color: #f44336;
+}
+
+#design:hover {
+background: #ddd;
+color: black;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+table, th, td {
+    border: solid black;
+    border-color:  black;
+    color: white;
+    background-color: rgba(0, 10, 5);
+}
+</style>
+</head>
+<body onloadstart="fullscreen()">
+
+<video autoplay id="video">
+  <source src="../video/iPhone-x-info.mp4" type="video/mp4">
+  Your browser does not support the video.
+</video>
+
+<div id="nav" class="sidenav">
+  <a href="../iPhoneX.html" id="home">HOME</button>
+  <a href="./iPhoneX-ios11.htm" id="ios11">iOS 11</a>
+  <a href="./iPhoneX-features.htm" id="features">Features</a>
+  <a href="./iPhoneX-design.htm" id="design">Design</a>
+</div>
+
+<div class="content">
+  <h1>iPhone X - INFO</h1>
+  <table id="table">
+    <tbody>
+      <tr>
+        <th>NETWORK</th>
+        <th>Tecnology</th>
+        <th>GSM/HSPA/LTE</th>
+      </tr>
+      <tr>
+        <th>LAUNCH</th>
+        <th>Announced</th>
+        <th>2017, September</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Status</th>
+        <th>Available. Released 2017, October</th>
+      </tr>
+      <tr>
+        <th>BODY</th>
+        <th>Dimensions</th>
+        <th>143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Weigt</th>
+        <th>174g (6.14 oz)</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Build</th>
+        <th>Front/back glass, stainless steel frame</th>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <button id="bt" onclick="pp()"><b>P A U S E</b></button>
+  <button id="bt1" onclick="fullscreen()"><b>F U L L S C R E E N - M O D E</b></button>
+</div>
+
+</body>
+<script type="text/javascript"> 
+function disableselect(e){  
+return false  
+}  
+
+function reEnable(){  
+return true  
+}  
+
+//if IE4+  
+document.onselectstart=new Function ("return false")  
+document.oncontextmenu=new Function ("return false")  
+//if NS6  
+if (window.sidebar){  
+document.onmousedown=disableselect  
+document.onclick=reEnable  
+}
+</script>
+<script>
+var video = document.getElementById("video");
+var btn = document.getElementById("bt");
+
+function pp() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "P A U S E";
+  } else {
+    video.pause();
+    btn.innerHTML = "P L A Y";
+  }
+}
+</script>
+<script>
+function fullscreen() {
+  if ((document.fullScreenElement && document.fullScreenElement !== null) ||
+   (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+    if (document.documentElement.requestFullScreen) {
+      document.documentElement.requestFullScreen();
+    } else if (document.documentElement.mozRequestFullScreen) {
+      document.documentElement.mozRequestFullScreen();
+    } else if (document.documentElement.webkitRequestFullScreen) {
+      document.documentElement.webkitRequestFullScreen();
+    }
+  } else {
+    if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitCancelFullScreen) {
+      document.webkitCancelFullScreen();
+    }
+  }
+}
+</script>
+
+
+
+</html>

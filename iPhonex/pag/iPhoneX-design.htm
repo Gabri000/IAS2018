@@ -1,0 +1,217 @@
+<html>
+<head>
+<link rel="icon" href="../img/icon.ico" />
+<title>iPhone X - Design</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 17px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#bt {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#bt:hover {
+    background: #ddd;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#bt1 {
+    width: 300px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#bt1:hover {
+    background: #ddd;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#home {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#home:hover {
+    background: #ddd;
+    color: black;
+}
+
+#nav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 135px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#nav a:hover {
+    left: 0;
+}
+
+#info {
+    top: 80px;
+    background-color: #FFD700;
+}
+
+#info:hover {
+background: #ddd;
+color: black;
+}
+
+#iOS11 {
+    top: 140px;
+    background-color: #2196F3;
+}
+
+#iOS11:hover {
+background: #ddd;
+color: black;
+}
+
+#features {
+    top: 200px;
+    background-color: #f44336;
+}
+
+#features:hover {
+background: #ddd;
+color: black;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+</style>
+</head>
+<body onloadstart="fullscreen()">
+
+<video autoplay id="video">
+  <source src="../video/iPhone-x-design.mp4" type="video/mp4">
+  Your browser does not support the video.
+</video>
+
+<div id="nav" class="sidenav">
+  <a href="../iPhoneX.html" id="home">HOME</button>
+  <a href="../pag/iPhoneX-info.htm" id="info">Info</a>
+  <a href="../pag/iPhoneX-features.htm" id="features">Features</a>
+  <a href="../pag/iPhoneX-design.htm" id="iOS11">iOS11</a>
+</div>
+
+<div class="content">
+  <h1>iPhone X</h1>
+  <p style="colour:red">The features are many.</p>
+  <button id="bt" onclick="pp()"><b>P A U S E</b></button>
+  <button id="bt1" onclick="fullscreen()"><b>F U L L S C R E E N - M O D E</b></button>
+</div>
+
+</body>
+<script type="text/javascript"> 
+function disableselect(e){  
+return false  
+}  
+
+function reEnable(){  
+return true  
+}  
+
+//if IE4+  
+document.onselectstart=new Function ("return false")  
+document.oncontextmenu=new Function ("return false")  
+//if NS6  
+if (window.sidebar){  
+document.onmousedown=disableselect  
+document.onclick=reEnable  
+}
+</script>
+<script>
+var video = document.getElementById("video");
+var btn = document.getElementById("bt");
+
+function pp() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "P A U S E";
+  } else {
+    video.pause();
+    btn.innerHTML = "P L A Y";
+  }
+}
+</script>
+<script>
+function fullscreen() {
+  if ((document.fullScreenElement && document.fullScreenElement !== null) ||
+   (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+    if (document.documentElement.requestFullScreen) {
+      document.documentElement.requestFullScreen();
+    } else if (document.documentElement.mozRequestFullScreen) {
+      document.documentElement.mozRequestFullScreen();
+    } else if (document.documentElement.webkitRequestFullScreen) {
+      document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+    }
+  } else {
+    if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.webkitCancelFullScreen) {
+      document.webkitCancelFullScreen();
+    }
+  }
+}
+</script>
+
+
+
+</html>
